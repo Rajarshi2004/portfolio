@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajarshi Paul | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7fb;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    /* Top Contact Bar */
+    .topbar {
+      background: #1e3a8a;
+      padding: 12px 25px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .topbar a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.05em;
+      transition: color 0.3s;
+    }
+
+    .topbar a:hover {
+      color: #fff;
+    }
+
+    /* Hero Section */
+    header {
+      height: 100vh;
+      background: url(""C:\Users\User\OneDrive\Desktop\portfolio page\4k Beautiful Desktop Wallpaper Colorful Nature Sunset Landscape.jpg"") no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      background-attachment: fixed;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.55);
+    }
+
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-size: 3.2em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.4em;
+    }
+
+    /* Navigation Tabs */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background: #2563eb;
+      padding: 15px 0;
+      position: sticky;
+      top: 48px; /* just below topbar */
+      z-index: 999;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #facc15;
+    }
+
+    /* Sections */
+    section {
+      padding: 70px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+      color: #1d4ed8;
+      text-align: center;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Contact Bar -->
+  <div class="topbar">
+    <a href="mailto:rajarshipaul20@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/rajarshi-paul" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Rajarshi2004" target="_blank">GitHub</a>
+  </div>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Rajarshi Paul</h1>
+    <p>B.Tech in Computer Science & Engineering | AI & Web Developer</p>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>University Of Engineering & Management, New Town</h3>
+      <p><strong>B.Tech, Computer Science & Engineering</strong> (2023–2027)</p>
+    </div>
+    <div class="card">
+      <h3>Pramila Memorial Institute</h3>
+      <p><strong>Senior Secondary (ISC) – Science</strong> – 96% (2023)</p>
+      <p><strong>Secondary (ICSE)</strong> – 90.25% (2021)</p>
+    </div>
+    <div class="card">
+      <h3>Internshala Trainings & Certifications</h3>
+      <ul>
+        <li>Machine Learning (2025) – Top performer, scored 94%</li>
+        <li>Internship & Job Preparation (2024) – Scored 80%</li>
+        <li>Web Development (2023–2024) – Scored 60%</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <p>Java, Python, C, C++</p>
+      <p>Machine Learning, Generative AI, Problem Solving, API Handling</p>
+      <p>Data Structures, Web Development (HTML, CSS, JavaScript)</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>AI Web App</h3>
+      <p>An interactive AI-powered web application integrating text summarization, chatbot features, PDF & PPT generation.</p>
+      <p><a href="https://mainpy-n3plcx755hrjwqkscxk2wi.streamlit.app/" target="_blank">🔗 View Project</a></p>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+
